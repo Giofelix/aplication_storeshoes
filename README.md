@@ -22,9 +22,7 @@ Aplicación de tienda en línea para la venta de calzado, desarrollada en Flutte
 ├── lib/
 │   ├── main.dart               # Punto de entrada principal
 │   ├── screens/                # Pantallas de la aplicación
-│   ├── widgets/                # Componentes reutilizables
-│   ├── models/                 # Modelos de datos
-│   └── services/               # Lógica de conexión a Firebase
+│   └── firebase_options.dart   # Lógica de conexión a Firebase
 ├── android/                    # Configuración específica de Android
 ├── ios/                        # Configuración específica de iOS
 ├── pubspec.yaml                # Dependencias del proyecto
