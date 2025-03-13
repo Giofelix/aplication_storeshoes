@@ -7,7 +7,8 @@ Aplicación de tienda en línea para la venta de calzado, desarrollada en Flutte
 - Registro e inicio de sesión de usuarios.
 - Listado de productos con detalles.
 - Integración con Firebase para la gestión de datos.
-- Diseño responsivo y amigable.
+- Gestion de Inventario
+- Proceso de Compra
 
 ## Requisitos previos
 
@@ -52,8 +53,15 @@ flutter run
 ## Funcionalidades principales
 
 - **Inicio de sesión y registro:**: Validación de datos y autenticación con Firebase Authentication.
-- **Listado de productos:**: Visualización de productos desde Firestore.
-- **Carrito de compras:**: Permite agregar, eliminar y persistir productos en el carrito.
+- **Catalogo de productos:**: Visualización de productos disponibles en la tienda.
+- **Gestión de inventario:**: Administrar productos y stock.
+- **Proceso de compra:**: Realizar y confirmar compras.
+- **Integración con Firebase:**: Autenticación y almacenamiento en la nube.
+- **Escaneo con cámara:**: Permite capturar imágenes para facilitar la gestión.
+- **Gestión de usuarios:**: Diferenciación entre usuarios normales y administradores con permisos específicos.
+- **Facturación:**: Genera detalles del pedido y confirma la compra realizada.
+- **Pantalla de bienvenida (Splash Screen):**: Introducción animada al iniciar la aplicación.
+- **Confirmación de compra:**: Revisión y validación final antes de procesar la compra.
 
 ## Tecnologías utilizadas
 
