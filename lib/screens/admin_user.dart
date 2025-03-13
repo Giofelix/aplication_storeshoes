@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:prueba/screens/camera_screen.dart';
 import 'package:prueba/screens/inventory_management.dart';
 import 'package:prueba/screens/login.dart';
 import 'package:prueba/screens/user_management.dart';
@@ -67,10 +68,14 @@ class AdminUserScreen extends StatelessWidget {
                     },
                   ),
                   _buildMenuItem(
-                    icon: Icons.support,
-                    text: 'Support',
+                    icon: Icons.camera_alt,
+                    text: 'Camera',
                     onTap: () {
-                      // Navigate to Support screen
+                      // Navigate to Camera screen
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => CameraScreen())
+                      );
                     },
                   ),
                 ],
