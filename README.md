@@ -59,7 +59,7 @@ flutter run
 - **Integración con Firebase:** Autenticación y almacenamiento en la nube.
 - **Escaneo con cámara:** Permite capturar imágenes para facilitar la gestión.
 - **Gestión de usuarios:** Diferenciación entre usuarios normales y administradores con permisos específicos.
-- **Facturación:**: Genera detalles del pedido y confirma la compra realizada.
+- **Facturación:** Genera detalles del pedido y confirma la compra realizada.
 - **Pantalla de bienvenida (Splash Screen):** Introducción animada al iniciar la aplicación.
 - **Confirmación de compra:** Revisión y validación final antes de procesar la compra.
 
