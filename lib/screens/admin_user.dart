@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:prueba/screens/camera_screen.dart';
 import 'package:prueba/screens/inventory_management.dart';
+import 'package:prueba/screens/location_screen.dart';
 import 'package:prueba/screens/login.dart';
 import 'package:prueba/screens/user_management.dart';
 
@@ -75,6 +76,18 @@ class AdminUserScreen extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) => CameraScreen())
+                      );
+                    },
+                  ),
+
+                  _buildMenuItem(
+                    icon: Icons.location_on,
+                    text: 'Location',
+                    onTap: () {
+                      // Navigate to Location screen
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => LocationScreen())
                       );
                     },
                   ),
